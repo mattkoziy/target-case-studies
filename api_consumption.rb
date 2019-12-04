@@ -91,7 +91,7 @@ response_xml.css("ArrayOfNexTripDeparture").each do |next_trip_route|
   end
 end
 
-#times of the nuses arrival is in the form of 2019-12-03T17:54:39
+#times of the buses arrival is in the form of 2019-12-03T17:54:39
 number_of_buses = closest_bus_times.size
 decomissioned_buses = 0
 closest_bus_times.each do |time|
